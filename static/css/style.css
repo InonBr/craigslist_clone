@@ -1,0 +1,86 @@
+/* navbar */
+.nav-wrapper {
+    background-image: linear-gradient(to bottom right, #3282b8, #0f4c75);
+    font-weight: bold;
+    padding: 0 25%;
+  }
+
+/* intruduction text */
+.intruduction {
+  font-size: 5vw;
+  text-align: center;
+}
+/* buton + buton while hover */
+.submit-btn {
+  background-color: #2973A5 !important;
+}
+
+.submit-btn:hover {
+  background-color: #2D7BAF !important;
+}
+
+.search_text {
+  text-align: center;
+}
+
+/* cards result */
+.card {
+    height: 500px; /* Your height here */
+    overflow: hidden;
+}
+
+.card-image {
+    height: 300px; /* Your height here */
+    overflow: hidden;
+}
+
+/* error massege if no result found */
+.materialert{
+    position: relative;
+    min-width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.materialert .material-icons{
+    margin-right: 10px;
+}
+.materialert .close-alert{
+    -webkit-appearance: none;
+    border: 0;
+    cursor: pointer;
+    color: inherit;
+    background: 0 0;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
+    filter: alpha(opacity=40);
+    margin-bottom: -5px;
+    top: 16px;
+    right: 5px;
+}
+
+.materialert.error{
+    background-color: #c62828;
+    color: #fff;
+}
+
+.no-found-gif {
+   display: block;
+   margin: 26px auto;
+   width: 50%;
+}
