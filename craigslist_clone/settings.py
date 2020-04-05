@@ -126,7 +126,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 STATIC_URL = '/static/'
 # BUILDPACK_URL = 'https://github.com/InonBr/craigslist_clone/tree/master/craigslist_clone'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStsticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStsticFilesStorage'
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 django_heroku.settings(locals())
